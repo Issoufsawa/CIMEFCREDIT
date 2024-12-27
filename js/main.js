@@ -118,7 +118,7 @@
 const navbar = document.getElementById('navbarCollapse');
 
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 40) {
         navbar.classList.remove('bg-light');
     } else {
         navbar.classList.add('bg-light');
