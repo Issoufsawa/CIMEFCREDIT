@@ -764,3 +764,14 @@ h6,
     transform: scale(0.5s);
     opacity: 1;
 }
+
+
+/* Ajout de l'animation pour l'image au survol */
+.card-img {
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Effets de zoom et d'opacité */
+}
+
+.card-img:hover {
+    transform: scale(1.1); /* Zoom sur l'image */
+    opacity: 0.9; /* Réduit légèrement l'opacité */
+}
